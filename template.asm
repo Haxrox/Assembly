@@ -1,8 +1,8 @@
-section.data ; constant data
+section .data ; constant data
 
-section.bss ; data declared later in program
+section .bss ; data declared later in program
 
-section.text ; code segment
+section .text ; code segment
     global _start ; declared for linker
 
 _start: ; start of program
